@@ -1,0 +1,8 @@
+{
+	"name": "visol/link-directory",
+	"type": "typo3-cms-extension",
+	"description": "Simple link directory using system categories",
+	"homepage": "https://github.com/visol/ext-link_directory",
+	"license": ["GPL-2.0+"],
+	"version": "1.0.0"
+}
