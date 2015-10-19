@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-09-01T17:46:52Z" product-name="link_directory">
+		<header/>
+		<body>
+			<trans-unit id="tx_linkdirectory_domain_model_link">
+				<target>Link</target>
+			</trans-unit>
+			<trans-unit id="tx_linkdirectory_domain_model_link.title">
+				<target>Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_linkdirectory_domain_model_link.description">
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_linkdirectory_domain_model_link.link">
+				<target>Link</target>
+			</trans-unit>
+			<trans-unit id="tx_linkdirectory_domain_model_link.image">
+				<target>Bild</target>
+			</trans-unit>
+			<trans-unit id="flexform.sheetTitle">
+				<target>Konfiguration</target>
+			</trans-unit>
+			<trans-unit id="flexform.parentCategory">
+				<target>Einstiegs-Kategorie</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

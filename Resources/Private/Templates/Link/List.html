@@ -1,0 +1,27 @@
+<f:layout name="Default"/>
+
+<f:section name="main">
+
+	<f:if condition="{categoryAndLinksItems}">
+		<f:for each="{categoryAndLinksItems}" as="categoryAndLinks">
+
+			<h2>{categoryAndLinks.category.title}</h2>
+			<f:if condition="{categoryAndLinks.links}">
+				<ul>
+					<f:for each="{categoryAndLinks.links}" as="link">
+						<li>
+							<f:link.page target="_blank" pageUid="{link.link}">{link.title}</f:link.page>
+							<f:if condition="{link.description}">
+								<f:format.html>{link.description}</f:format.html>
+							</f:if>
+						</li>
+					</f:for>
+				</ul>
+			</f:if>
+
+
+		</f:for>
+
+	</f:if>
+
+</f:section>
