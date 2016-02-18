@@ -19,6 +19,10 @@ namespace Visol\LinkDirectory\Domain\Repository;
  */
 class LinkRepository extends \TYPO3\CMS\Extbase\Persistence\Repository {
 
+    protected $defaultOrderings = array(
+        'title' => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_ASCENDING
+    );
+
 	/**
 	 * @param $category \TYPO3\CMS\Extbase\Domain\Model\Category
 	 * @return array|\TYPO3\CMS\Extbase\Persistence\QueryResultInterface
